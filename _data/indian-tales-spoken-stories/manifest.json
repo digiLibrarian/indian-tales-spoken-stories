@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://digiLibrarian.github.io/indian-tales-spoken-stories/indian-tales-spoken-stories/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "indian tales spoken stories" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "Home page for indian tales spoken stories" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://digiLibrarian.github.io/indian-tales-spoken-stories/indian-tales-spoken-stories/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 2007.0,
+        "items": [
+          {
+            "id": "https://digiLibrarian.github.io/indian-tales-spoken-stories/indian-tales-spoken-stories/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://digiLibrarian.github.io/indian-tales-spoken-stories/indian-tales-spoken-stories/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://utexas.box.com/s/https://utexas.box.com/s/ulpn39cacc541dwqk11ztstzexmakovs",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 2007.0
+                },
+                "target": "https://digiLibrarian.github.io/indian-tales-spoken-stories/indian-tales-spoken-stories/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
